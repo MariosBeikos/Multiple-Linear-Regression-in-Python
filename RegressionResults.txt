@@ -1,0 +1,35 @@
+----------Results of Regression----------
+
+Dependent variable (Y):
+LN_Price_m
+Regression Equation:
+Y = 7.779 - 0.111*X1 - 0.245*X2 + 0.52*X3 + 0.022*X4 - 0.127*X5 + 0.069*X6 - 2.307*X7 + 0.0*X8 - 0.011*X9 + 0.047*X10 - 0.046*X11
+
+----------Model Summary----------
+R	R Square	 Adj. R Square	 Std. Error of Estimate
+0.5673	0.3218			0.297		0.2552
+
+----------ANOVA----------
+		Sum of Squares	df	Mean Square	F
+Regression		9.299	11	0.845		12.983
+Residual		19.6	301	0.065
+total			28.898	312
+
+----------Coefficients----------
+Unstandardized B	Coefficients Std. Error		t
+7.779			0.253				30.717	|Constant
+-0.111			0.031				-3.617	|LnAREA
+-0.245			0.026				-9.385	|LnAGE
+0.52			0.08				6.495	|DETACHED
+0.022			0.01				2.295	|OROF
+-0.127			0.123				-1.033	|YLIKA
+0.069			0.047				1.457	|VIEW
+-2.307			1.085				-2.127	|PL
+0.0			0.001				0.438	|Density_40
+-0.011			0.026				-0.43	|LnDistScho
+0.047			0.021				2.285	|LnDistTran
+-0.046			0.021				-2.176	|LnDistPark
+
+
+
+END
